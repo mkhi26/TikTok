@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Sofia Pro";
+    src: local("fonts/sofiapro/Fonts/sofiapro-light.otf");
+}
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+ }
+.btn-ver-ahora{
+    background-color: #f94754!important;
+    border-color: #f94754!important;
+    border-radius: 2px!important;
+    height: 45px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto!important;
+}
+
+.btn-desplegar {
+    color:dimgray;
+    font-size: 25px;
+}
+
+.btn-desplegar:hover {
+    cursor: pointer;
+}
+
+.modal-menu-izquierdo {
+    margin: 0px;
+    
+}
+
+.contenido-modal {
+    border-radius: 0px;
+    width: 65%;
+    height: 100%!important;
+    margin-bottom: 0px;
+}
+
+.btn-cerrar-menu-modal {
+    font-size: 25px!important;
+    margin-left: 10px;
+} .btn-cerrar-menu-modal:hover {
+    cursor: pointer;
+}
+
+.txt-logo-menu-modal {
+    width: 120px;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.dark-logo-menu-modal {
+    width: 38px
+}
+#make-your-day {
+    font-family: "Sofia Pro";
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1;
+}
+#real-people {
+    text-align: center;
+    font-weight: bold;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 3px;
+
+}
+
+.opciones-link {
+    font-weight: bold;
+    color: black;
+
+}
+.links-panel-izquierdo{
+    text-decoration: none;
+} 
+#banner {
+    background-image: url('img/banner.png');
+}
+
+.gif {
+    width: 100%;    
+    height: 100%;
+}
+.columna-gif {
+  
+    padding-right: 0px!important;
+    
+}
+
+.pie-pagina {
+    background-color: #000000;
+}
+
+#footer-1 {
+
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-family: "Sofia Pro";
+}
+
+#codigo-pais {
+    width: 100px;
+}
+
+.btn-enviar-numero {
+    background-color: #f94754;
+    border-radius: 0px;
+}
+.btn-codigo-pais {
+    background-color: white;
+    border-radius: 0;
+}
+
+#txt-descargar-ahora {
+    color: white;
+    text-align: center;
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.parrafo-condiciones {
+
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.links-footer {
+    color: #ccc;
+    display: inline;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
+
+.txt-encabezado-lista {
+    color: #ccc;
+    display: inline;
+    font-family: "Sofia Pro";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    position: relative;
+
+}
+
+.drp-idioma {
+    
+    background-color: rgba(95, 15, 15, 0)!important;
+    border-radius: 0px;
+
+}
+
+.marca-tiktok{
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    line-height: 24px;
+    color: #8a8b91;
+}
+
+
+.col-marca {
+    margin-left: auto;
+}
+
+hr {
+
+    background-color: white;
+
+}
+.tabla-imagenes{
+    margin-right: auto;
+
+}
