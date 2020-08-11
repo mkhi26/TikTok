@@ -524,7 +524,11 @@ hr {
 }
 
 
+<<<<<<< HEAD
 #input-correo-login{
+=======
+#input-telefono-login{
+>>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
     margin-right: auto;
     box-shadow: none;
     width: 100%;
@@ -532,17 +536,29 @@ hr {
     border: 1px solid #ced4da;
 
 }
+<<<<<<< HEAD
 #input-correo-login:focus{
     border: 1px solid #27d5ec;
     box-shadow: none;
 }
 .input-login{
+=======
+#input-telefono-login:focus{
+    border: 1px solid #27d5ec;
+    box-shadow: none;
+}
+#input-codigo-login{
+>>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
     width:80% ;
     margin-right: auto;
     box-shadow: none;
     border: 1px solid #ced4da;
 }
+<<<<<<< HEAD
 .input-login:focus{
+=======
+#input-codigo-login:focus{
+>>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
     
     box-shadow: none;
     border: 1px solid #27d5ec;
@@ -563,12 +579,20 @@ hr {
 }
 
 
+<<<<<<< HEAD
 .btn-enviar-codigo {
+=======
+#btn-enviar-codigo {
+>>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
     width: 100%;
     background-color: #f94753!important;
     height: 50px;
 }
+<<<<<<< HEAD
 .input-codigo-login {
+=======
+#input-codigo-login {
+>>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
     height: 50px;
     width: 65%;
 }
@@ -576,7 +600,11 @@ hr {
 #btn-modal-inicio-sesion {
     background-color: #f94753!important;
     height: 50px;
+<<<<<<< HEAD
     width: 80%;
+=======
+    width: 94%;
+>>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
 }
 
 .modal-txt-inicio-sesion {
