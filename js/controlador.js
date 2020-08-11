@@ -125,11 +125,7 @@ function generearPublicaciones(){
         let sonido = publicaciones[i].sonido;
         let video = publicaciones[i].video;
         
-<<<<<<< HEAD
-
-=======
         console.log("Hola");
->>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
         document.getElementById("publicaciones").innerHTML += "";
         document.getElementById("publicaciones").innerHTML +=
 
@@ -149,11 +145,7 @@ function generearPublicaciones(){
                 <div class="col-12">
                     <div style="margin-left: auto;">
 
-<<<<<<< HEAD
-                        <video class="" controls  style="height: 348px; height: 520px; border-radius: 15px; margin-right: auto;" >
-=======
                         <video class="" controls autoplay style="height: 348px; height: 520px; border-radius: 15px; margin-right: auto;" >
->>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
                             <source src="${video}"  type="video/mp4">
                         </video>
                     </div>
@@ -239,7 +231,6 @@ function validarInput(val,btx){
 
 }
 
-<<<<<<< HEAD
 function fmAsignarDias(){
     document.getElementById("select-dias").innerHTML = "";
     document.getElementById("select-dias").innerHTML = "<option selected>Dia</option>";
@@ -265,9 +256,5 @@ function fmAsignarAños(){
 generearPublicaciones();
 fmAsignarDias();
 fmAsignarAños();
-=======
-//generearPublicaciones();
-
->>>>>>> 5cf0eae86f836584d06f5771e12e161720c51339
 generarCuentasRecomendadas();
 generarTendencias();
