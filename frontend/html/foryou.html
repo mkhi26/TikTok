@@ -1,0 +1,626 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <script src="../js/all.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <title>TikTok</title>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pl-4 fixed-nav">
+
+
+
+    <a class="navbar-brand pl-1" style="margin-right: auto!important;" href="#">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="../img/logo-dark.svg" alt="">
+        <img src="../img/txt-dark-tiktok.svg" alt="">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div style="margin-left: auto;">
+            <a href="../html/upload.html"><i class="fas fa-cloud-upload-alt subir-video mr-2"></i></a>
+            <button  class="btn btn-primary my-2 my-sm-0 btn-iniciar-sesion mr-2" type="submit"  data-toggle="modal" data-target="#modal-login-1">
+                <span>&nbsp;&nbsp;Iniciar sesión</span>
+            </button>
+
+        </div>
+    </div>  
+    </nav>
+    <hr>
+    <main id="inicio" >
+        <div class="row ">
+            <div id="" class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2  ">
+                <div class="row menu-panel-izquierdo pl-4 d-none d-lg-block d-xl-block fixed ">
+                    <div class="col-12 ml-2 pb-4">
+                        
+                        <samp class="pl-3">
+                            <i class="fas fa-home" style="color: #fe2c55; font-size: 30px;"></i>
+                            <a id="txt-para-ti" href="">Para ti</a>
+                            
+                        </samp>
+
+                    </div>
+
+                    <div class="col-12 ml-2">
+                        <samp class="pl-3">
+                            <i class="fas fa-hashtag" style="font-size: 30px;"></i>
+                            <a id="txt-tendencias" href="">Tendencias</a>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-2">
+                        <samp class="pl-3">
+                            <i class="fas fa-user-friends" style="font-size: 30px;"></i>
+                            <a id="txt-tendencias" href="">Siguiendo</a>
+                        </samp>
+                    </div>
+                    <div class="col-12">
+                        <samp class="pl-3">
+
+                            <p class="parrafo-panel-izquierdo ml-4 ">Inicia sesión para seguir a autores, dar un me gusta a videos y ver comentarios.</p>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-2">
+                        <samp class="">
+                            <button type="button" class="btn btn-outline-danger btn-iniciar-sesion-2">Iniciar sesión</button>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-2">
+                        <samp class="">
+                           <a class="otras-referencias" href="#">Inicio</a>
+                           <a class="otras-referencias" href="#">Acerca de</a>
+                           <a class="otras-referencias" href="#">Sala de prensa</a>
+                           <a class="otras-referencias" href="#">Vacantes</a>
+                           <a class="otras-referencias" href="#">ByteDance</a>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-2 pt-4">
+                        <samp class="">
+                           <a class="otras-referencias" href="#">Ayuda</a>
+                           <a class="otras-referencias" href="#">Seguridad</a>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-1">
+                        <samp class="">
+                           <a class="otras-referencias" href="#">Normas de la comunidad</a>
+                           <a class="otras-referencias" href="#">Términos</a>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-1">
+                        <samp class="">
+                           <a class="otras-referencias" href="#">Privacidad</a>
+                        </samp>
+                    </div>
+                    <div class="col-12 ml-1 pb-4">
+                        <samp class="otras-referencias">© 2020 TikTok</samp>
+                    </div>
+                    <div class="col-12 ml-2 ml-1">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle drp-idioma otras-referencias" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 70%;">Español</a>
+                          
+                            <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item otras-referencias" href="#">Ingles</a>
+                              <a class="dropdown-item otras-referencias" href="#">Ruso</a>
+                              <a class="dropdown-item otras-referencias" href="#">Chino</a>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4 ml-0 " id="publicaciones">
+                
+
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="row">
+                    <div class="col-1 ml-2">
+                        <i class="fab fa-facebook" style="color: #1777f2; font-size: 30px; cursor: pointer;"></i>
+                    </div>
+                    <div class="col-1 ml-2">
+                        <i class="fab fa-pinterest"style="color: #e73d3a; font-size: 30px; cursor: pointer;" ></i>
+                    </div>
+                    <div class="col-1 ml-2">
+                        <img src="../img/recursos/twitter.svg" alt="" style="cursor: pointer;">
+                    </div>
+                </div>
+
+                <div class="row pt-4 mb-5">
+                    <div class="col-12">
+                        <div class="card  " style="width: 95%; height: 380px;">
+                            
+                            <h5 class="card-title titulo-tendencias">Cuentas recomendadas</h5>
+                            <div class="card-body table-wrapper-scroll-y my-custom-scrollbar">
+                                <table class=" mb-0" id="cuentas-recomendadas">
+                                    <!--Aqui inician las cuentas recomendadas-->
+                              </table>           
+                            </div>
+                          </div>
+                    </div>
+                    <!--Tendencias-->
+                    <div class="col-12 pt-5">
+                        <div class="card  " style="width: 95%; height: 380px;">                       
+                            <h5 class="card-title titulo-tendencias">Tendencias</h5>
+                            <div class="card-body table-wrapper-scroll-y my-custom-scrollbar">
+                                <table class=" mb-0" id="tendencias">
+                                    <!--Aqui inician las cuentas tendencias-->
+                                </table>
+
+                              
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="dwn-tiktok">Recibe un mensaje de texto con un enlace para descargar TikTok</h5>
+
+                            </div>
+                            <div class="col-12">
+                              <div class="input-group ">
+                                <div class="input-group-btn  pl-5">
+                                  <button tabindex="-1" data-toggle="dropdown" class="btn dropdown-toggle btn-codigo-pais">HN+504 &nbsp;<span class="caret"></span></button>
+                                    <div class="dropdown-menu">
+                                      <ul class="dropdown">
+                                        <li><a class="dropdown-item" href="#">097</a></li>
+                                          <li><a class="dropdown-item" href="#">096</a></li>
+                                            <li><a class="dropdown-item" href="#">099</a></li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <input id="numero-telefono" type="text" class="form-control" name="telefono"placeholder="Número de teléfono" value="">
+                                <input class="btn btn-primary btn-enviar-numero" type="button" value="Enviar">
+                              </div>
+
+                            </div>
+
+                            <div class="col-12 pt-3">
+                                <p style="color: #8a8b91;" class="parrafo-condiciones">Al pulsar el botón «Enviar», aceptas nuestros <a class="parrafo-condiciones" href="#"><u style="color: #8a8b91;">Términos de uso</u></a>  y reconoces haber leído y comprendido nuestra <a class="parrafo-condiciones" href="#"> <u>Política de privacidad</u></a> </p>
+                            </div>
+              
+              
+                        </div>
+                        <div class="col-12">
+                            <div class="row tienda-apps">
+                              
+                              <div class="col-6 pt-3 pl-5">
+                                <a href="#"><img class="" id="img-app-store" src="../img/app-store-1.png" alt=""></a>
+                                
+                              </div>
+                
+                              <div class="col-6 pt-3">
+                                <a href="#"><img id="img-play-store" class="" src="../img/play-store-1.png" alt=""></a>
+                              </div>
+                              <div class="col-6 pt-3 pl-5">
+                                <a href="#"><img id="img-amazon-app-store" class="pb-5" src="../img/amazon-app-store-1.png" alt=""></a>
+                              </div>
+                
+                            </div>
+                            
+                          </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="img-upload"><a href="#"><img src="../img/recursos/upload.svg" alt=""></a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+<!-- Este es el modal de inicio de sesión menu opcionde de inicio-->
+<div class="modal fade" id="modal-login-1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="modal-login-1Label" aria-hidden="true">
+  <div class="modal-dialog modal-registro">
+    <div class="modal-content" style="max-height: 100%; max-width: 100%; height: 100%; margin-left: auto; margin-right: auto;">  
+      <div class="modal-body">
+              
+        <div class="row">
+          <div class="col-12" >
+            <div class="row">
+              <div class="col-3" style="margin-left: auto;">
+                <img onclick="$('#modal-login-1').modal('hide');" style="cursor: pointer;" src="../img/recursos/close.svg" alt="">
+
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="logo-transparente"><img style="width: 40%; margin-top: -15;" src="../img/recursos/logoTikTokTransparente.png" alt=""></div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 pt-4">
+            <h1 class="modal-txt-inicio">Iniciar sesión en TikTok</h1>
+            <h5 class="modal-txt-gestion pb-0">Gestiona tu cuenta, lee notificaciones, comenta sobre videos y más.</h5>
+          </div>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4" style="margin-left: auto; margin-right: auto;">
+            <div class="my-custom-scrollbar-2">
+
+              <div class="contenedor-principal">
+                <div style="margin-left: auto;">
+                  <div class="row pt-3">
+                    <div class="col-12">
+                      <div class="rectangulo-login">
+                        <div class="row">
+                          <div class="col-1"><img class="pt-2 ml-2" style="height: 35px;" src="../img/recursos/usr.png" alt=""></div>
+                          <div class="col-10"><h5 onclick="$('#modal-login-2').modal('show'); $('#modal-login-1').modal('hide');" class="txt-login">Usar teléfono/correo/nombre de usuario</h5></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+      
+                </div>
+      
+                <div class="row pt-3">
+                  <div class="col-12">
+                    <div class="rectangulo-login">
+                      <div class="row">
+                        <div class="col-1"><i class="fab fa-facebook pt-2" style="color: #1777f2; font-size: 30px;"></i></div>
+                        <div class="col-10"><h5 class="txt-login pt-2"></i>Iniciar sesión con Facebook</h5></div>
+                      </div>
+                      
+                    </div>  
+                  </div>
+      
+                </div>
+      
+                <div class="row pt-3">
+                  <div class="col-12">
+                    <div class="rectangulo-login">
+                      <div class="row">
+                        <div class="col-1"><img class="pt-2 pl-2" style="height: 35px;" src="../img/recursos/goglr.png" alt=""></div>
+                        <div class="col-10"><h5 class="txt-login pt-2">Iniciar sesión con Google</h5></div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="row pt-3">
+                  <div class="col-12">
+                    <div class="rectangulo-login">
+                      <div class="row">
+                        <div class="col-1"><i class="fab fa-twitter pt-2 pl-2" style="color: #54acee; font-size: 30px;"></i></div>
+                        <div class="col-10"><h5 class="txt-login pt-2"></i>Iniciar sesión con twitter</h5></div>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="row pt-3">
+                  <div class="col-12">
+                    <div class="rectangulo-login">
+                      <div class="row">
+                        <div class="col-1"><i class="fab fa-apple pt-2 pl-2" style="color: black; font-size: 35px;"></i></div>
+                        <div class="col-10"><h5 class="txt-login pt-2 "></i>Iniciar sesión con Apple</h5></div>
+                      </div>
+                      
+      
+                    </div>
+                  </div>
+      
+                </div>
+      
+                <div class="row pt-3">
+                  <div class="col-12">
+      
+                    <div class="rectangulo-login">
+                      <div class="row">
+                        <div class="col-1"><img class="pl-2 pt-2" src="../img/recursos/instagram.png" style="height: 35px;" alt=""></div>
+                        <div class="col-10"><h5 class="txt-login pt-2">Iniciar sesión con Instagram</h5></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+          <div class="row pt-0">
+            <div class="col-12 ">
+              <div class="txt-modal-registrate ">
+                <h6 class="mt-5 pl-4 ">¿No tienes una cuenta? <a onclick="$('#modal-formulario-registro').modal('show'); $('#modal-login-1').modal('hide');" class="txt-link-registrate" href="#">registrate</a></h6>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" style="margin-left: auto; box-sizing: border-box;">
+            <div class="div-comentarios-ayuda">
+              <h6><img style="height:20px;" src="../img/recursos/cuestion.png" alt=""><a class="div-comentarios-ayuda ml-2" href="">Comentarios y ayuda</a></h6>
+            </div>
+          </div>
+        </div> 
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Inicio sesión 2 -->
+<div class="modal fade" id="modal-login-2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="modal-login-2Label" aria-hidden="true">
+  <div class="modal-dialog modal-registro">
+    <div class="modal-content" style="max-height: 200%; max-width: 100%; height: 100%; margin-left: auto; margin-right: auto;">  
+      <div class="modal-body">      
+        <div class="row">
+          <div class="col-12" >
+            <i onclick="$('#modal-login-2').modal('hide'); $('#modal-login-1').modal('show'); " class="fas fa-chevron-left" style="font-size: 30px; cursor: pointer;"></i>
+            <div class="row">
+              <div class="col-3" style="margin-left: auto;">
+                <img onclick="$('#modal-login-2').modal('hide'); " style="cursor: pointer;" src="../img/recursos/close.svg" alt="">
+
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-12">
+            <div id="contenedor-login" style="margin-left: auto; width: 90%;">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class="modal-txt-inicio-sesion mr-2">Iniciar sesión</h1>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <h5 class="txt-telefono-registro">Correo electronico o nombre de usuario</h5>
+                </div>
+
+
+                <div class="col-12 col pt-2">
+                  <form action="">
+                    <input id="correo-usuario"  class="form-control input-login pt-2 mb-2" type="email" placeholder="Correo electrónico o nombre de usuario" style="height: 50px;">
+                    <input id="contrasena" class="form-control input-login" type="password" style="height: 50px;">
+                    <div class="row">
+                      <div class="col-12 pt-2 pl-5"></div>
+                        <a href="">
+                          <h6 style="color: rgba(22,24,35,0.75); text-decoration: none; font-size: 15px;">¿Olvidaste tu contraseña?</h6>
+                        </a>
+                      </div>
+                      <div class="alert alert-danger" id="error" style="display: none; width: 500px;"></div>
+                      <input id="btn-modal-inicio-sesion" onclick="login();" class="btn btn-primary pt-2" type="button" value="Iniciar sesión">
+             
+       
+                      
+                  
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <div class="row pt-2" style="width: 100%;">
+          <div class="col-6">
+            <h6 >¿No tienes una cuenta? <a onclick="$('#modal-formulario-registro').modal('show'); $('#modal-login-2').modal('hide');" class="txt-link-registrate" href="#">registrate</a></h6>
+          </div>
+          <div class="col-6">
+            <div class="" style="margin-left: auto;">
+              <h6><img style="height:20px;" src="../img/recursos/cuestion.png" alt=""><a class="div-comentarios-ayuda" href="">Comentarios y ayuda</a></h6>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal- formulario para el registro de usuarios -->
+<div class="modal fade" id="modal-formulario-registro" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="modal-login-2Label" aria-hidden="true">
+  <div class="modal-dialog modal-registro">
+    <div class="modal-content" style="max-height: 200%; max-width: 100%; margin-left: auto; margin-right: auto;">  
+      <div class="modal-body">      
+        <div class="row">
+          <div class="col-12" >
+            <i onclick="$('#modal-login-2').modal('show'); $('#modal-formulario-registro').modal('hide'); " class="fas fa-chevron-left" style="font-size: 30px; cursor: pointer;"></i>
+            <div class="row">
+              <div class="col-3" style="margin-left: auto;">
+                <img onclick="$('#modal-formulario-registro').modal('hide'); " style="cursor: pointer;" src="../img/recursos/close.svg" alt="">
+
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-12">
+            <div id="contenedor-login" style="margin-left: auto; width: 90%;">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class="modal-txt-inicio-sesion mr-2">Registrarse</h1>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-12 ">
+                  <h5 class="txt-telefono-registro">¿Cuál es tu fecha de nacimiento?</h5>
+                </div>
+
+
+                <div class="col-12 col-md-12 col-lg-8 col-xl-8 col pt-2">
+                  <form class="">
+                    <div class="row">
+                      <div class=" col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                        <select class="custom-select my-1 mr-sm-2" id="select-mes">
+                          <option selected>Mes</option>
+                          <option value="1">Enero</option>
+                          <option value="2">Febrero</option>
+                          <option value="3">Marzo</option>
+                          <option value="4">Abril</option>
+                          <option value="5">May</option>
+                          <option value="6">Junio</option>
+                          <option value="7">Julio</option>
+                          <option value="8">Agosto</option>
+                          <option value="9">Septiembre</option>
+                          <option value="10">Octubre</option>
+                          <option value="11">Noviembre</option>
+                          <option value="12">Diciembre</option>
+                        </select>
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                        <select id="select-dias" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref"></select>
+                      </div>
+                      <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                        <select id="select-años" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref"></select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <h6 style="color: rgba(22,24,35,0.75); font-size: 11px;">Tu fecha de nacimiento no se mostrará públicamente.</h6>
+                      </div>
+                      <div class="col-12 pt-2">
+                        <h5 class="txt-telefono-registro">Registro con correo electronico</h5>
+
+                      </div>
+                      <div class="col-12 mt-2">
+                        <input id="input-nombre"  class="form-control input-login pt-2 mb-2" type="text" placeholder="Nombre" style="height: 50px; width: 100%;">
+                        <input id="input-apellido"  class="form-control input-login pt-2 mb-2" type="text" placeholder="Apellido" style="height: 50px; width: 100%;">
+                        <input id="correo-electronico"  class="form-control input-login pt-2 mb-2" type="email" placeholder="Dirección de correo electrónico" style="height: 50px; width: 100%;">
+                        <input id="contrasena" class="form-control input-login" type="password" placeholder="Contraseña" style="height: 50px; width: 100%;">
+                 
+                      </div>
+                    </div>
+                    <div class="row pt-2">
+
+                      <div class="col-12 pt-2">
+                        <input onclick="registrarUsuario();" id="" class="btn btn-primary pt-2" style="width: 100%!important; background-color: #f94753!important;" type="button" value="Siguiente">
+
+                      </div>
+                      <div class="col-12 pt-2">
+                        <h6 style="text-align: center; color: rgba(22,24,35,0.75); font-size: 11px;">Al continuar, confirmas que estás de acuerdo con <a href="#">Términos de uso </a> de TikTok y que has leído la <a href="#">Política de privacidad</a> de TikTok</h6>
+                      </div>
+                    </div>
+                    
+                    
+                  </form>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="modal-footer">
+        <div class="row pt-2" style="width: 100%;">
+          <div class="col-6">
+            <h6>¿Ya tienes una cuenta? <a onclick="$('#modal-login-2').modal('show'); $('#modal-formulario-registro').modal('hide');    " class="txt-link-registrate" href="#">Inicia sesión</a></h6>
+          </div>
+          <div class="col-6">
+            <div class="" style="margin-left: auto;">
+              <h6><img style="height:20px;" src="../img/recursos/cuestion.png" alt=""><a class="div-comentarios-ayuda" href="">Comentarios y ayuda</a></h6>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal de comentarios-->
+
+<div class="modal fade" id="modal-comentario" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="modal-login-2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="max-height: 200%; max-width: 100%; margin-left: auto; margin-right: auto;">  
+      <div class="modal-body" id="contenedor-comentarios">
+        <div class="row">
+          <div class="col-12">
+            <img onclick="$('#modal-comentario').modal('hide'); " style="cursor: pointer; margin-left: auto;" src="../img/recursos/close.svg" alt="">
+          </div>
+          <div class="row-12" style="margin-left: auto; margin-right: auto;"><h6 style="text-align: center; font-family: 'Sofia Pro Bold'; font-weight: bold;">4002 comentarios</h6></div>
+        </div>
+        <!--Primer comentario-->
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-1">
+                    <img src="../img/recursos/usuario-0.png" style="width: 30px; height: 30px; border-radius: 50%;" alt="">
+                  </div>
+                  <div class="col-11"><h6 class="nombre-comentario">Nombre Usuario</h6></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-10">
+                    <div class="container ml-4 contenido-comentario">
+                      <div class="card">
+                        <div class="body">
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident maiores eius tempora, minus, expedita quibusdam unde eum tempore accusamus voluptatem est natus officia repellendus rem!</p>
+                        </div>
+                      </div>                     
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-12">
+                        <i class="far fa-heart" style="font-size: 14px; cursor: pointer;"></i>
+                      </div>
+                      <div class="col-12"><span><h6 style="font-family: 'Sofia Pro'; font-size: 14px;">10</h6></span></div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="row">
+          <div class="col-12">
+            <textarea  class="form-control" name="txt-input-comentario" id="input-comentario" cols="30" rows="3" placeholder="Ingrese comentario"></textarea>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/controlador.js"></script>
+  </body>
+</html>

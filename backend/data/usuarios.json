@@ -1,0 +1,513 @@
+[
+    {
+        "idUsuario": 0,
+        "nombre": "Amilcar",
+        "apellido": "Rodriguez",
+        "nombreUsuario": "mkhi_26",
+        "correoElectronico": "aar.velasquez@gmail.com",
+        "contrasena": "259476268fc8c80fa56d485d5de47820a2b300c1",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            5,
+            1,
+            2,
+            6,
+            7,
+            4,
+            3
+        ],
+        "seguidores": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            "8"
+        ],
+        "meGustas": [
+            1,
+            2
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "haha \u00a1que buen video!",
+                        "idUsrComentario": 4
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": "Se esta haciendo un comentario"
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": "Este es un comentario"
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": "Esta es un comentario"
+                    }
+                ],
+                "compartidos": []
+            },
+            {
+                "idPublicacion": 1,
+                "leyenda": "Video Jenifer",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "Publico",
+                    true,
+                    false
+                ],
+                "likes": [],
+                "comentarios": [
+                    {
+                        "idComentario": 3,
+                        "contenidoComentario": "\u00a1omg Jenifer!"
+                    }
+                ],
+                "compartidos": []
+            },
+            {
+                "idPublicacion": 2,
+                "leyenda": "Video de ejemplo",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "Publico",
+                    true,
+                    true
+                ],
+                "likes": [],
+                "comentarios": [],
+                "compartidos": []
+            }
+        ]
+    },
+    {
+        "idUsuario": 1,
+        "nombre": "Marta",
+        "apellido": "Gonzaleles",
+        "nombreUsuario": "marta_16",
+        "correoElectronico": "marta@gmail.com",
+        "contrasena": "f2db82ecf3d0bd7e2e5f956233ddbd3db8a5b262",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "seguidores": [
+            3,
+            4,
+            5,
+            6,
+            "0",
+            "10"
+        ],
+        "meGustas": [
+            0
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": null
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": "Este es el comentario"
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": "Estamos probando los comentarios de esta pagina.\n"
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 2,
+        "nombre": "Egri",
+        "apellido": "Bonilla",
+        "nombreUsuario": "bonigiro",
+        "correoElectronico": "egri@gmail.com",
+        "contrasena": "6f666386480d75a6e0c4085af538355ad9c4a79c",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            6,
+            3
+        ],
+        "seguidores": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            "0"
+        ],
+        "meGustas": [
+            0
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 3,
+        "nombre": "Keren",
+        "apellido": "Barrantes",
+        "nombreUsuario": "barrantes",
+        "correoElectronico": "keren@gmail.com",
+        "contrasena": "aed5505b05c196bbd3cf6d9258fcb01e76a615a7",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+        ],
+        "seguidores": [
+            1,
+            4,
+            5,
+            6,
+            "0",
+            "2"
+        ],
+        "meGustas": [
+            0
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Video publicado por keren",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 4,
+        "nombre": "Larissa",
+        "apellido": "Alfaro",
+        "nombreUsuario": "Larissa",
+        "correoElectronico": "larissa@gmail.com",
+        "contrasena": "f01d1fcb7925c5c4db1e348134504b012ace0a7b",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+        ],
+        "seguidores": [
+            1,
+            3,
+            5,
+            6,
+            "0"
+        ],
+        "meGustas": [
+            0
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 5,
+        "nombre": "Jenifer",
+        "apellido": "Barrantes",
+        "nombreUsuario": "jeni",
+        "correoElectronico": "jenifer@gmail.com",
+        "contrasena": "1e0fda4c46c6bf3875c17c0108d99448ca99d508",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+        ],
+        "seguidores": [
+            1,
+            3,
+            4,
+            6,
+            "0"
+        ],
+        "meGustas": [
+            0
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 6,
+        "nombre": "Daniela",
+        "apellido": "Fonseca",
+        "nombreUsuario": "kikin",
+        "correoElectronico": "danielak@gmail.com",
+        "contrasena": "2af8e858f8383c6a943fd9a05ad4a896f266265d",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "seguidores": [
+            1,
+            3,
+            4,
+            5,
+            "2",
+            "0"
+        ],
+        "meGustas": [
+            0
+        ],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    },
+                    {
+                        "idComentario": "2",
+                        "contenidoComentario": "Este es un comentario"
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 7,
+        "nombre": "Random1",
+        "apellido": "Random",
+        "nombreUsuario": "random_1",
+        "correoElectronico": "random@gmail.com",
+        "contrasena": "f01d1fcb7925c5c4db1e348134504b012ace0a7b",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [],
+        "seguidores": [
+            "0"
+        ],
+        "meGustas": [],
+        "publicaciones": [
+            {
+                "idPublicacion": 0,
+                "leyenda": "Este es el primer video publicado",
+                "urlVideo": "..\/img\/recursos\/video-ejemplo.mp4",
+                "privacidad": [
+                    "publico",
+                    true,
+                    true
+                ],
+                "likes": [
+                    1,
+                    2
+                ],
+                "comentarios": [
+                    {
+                        "idComentario": 0,
+                        "contenidoComentario": "Este es un comentario",
+                        "idUsrComentario": 1
+                    },
+                    {
+                        "idComentario": "0",
+                        "contenidoComentario": "Este es un comentario"
+                    }
+                ],
+                "compartidos": []
+            }
+        ],
+        "compartidos": []
+    },
+    {
+        "idUsuario": 8,
+        "nombre": "Nazareth",
+        "apellido": "Rodriguez",
+        "nombreUsuario": "Nazareth_6",
+        "correoElectronico": "naza@gmail.com",
+        "contrasena": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            0
+        ],
+        "seguidores": [],
+        "meGustas": [],
+        "publicaciones": []
+    },
+    {
+        "idUsuario": 9,
+        "nombre": "Yanesi",
+        "apellido": "Rodriguez",
+        "nombreUsuario": "Yanesi_24",
+        "correoElectronico": "nazareth@gmail.com",
+        "contrasena": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [],
+        "seguidores": [],
+        "meGustas": [],
+        "publicaciones": []
+    },
+    {
+        "idUsuario": 10,
+        "nombre": "Pedro",
+        "apellido": "Velasquez",
+        "nombreUsuario": "Pedro_4",
+        "correoElectronico": "pedrov@gmail.com",
+        "contrasena": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "imagen":"..\/img\/recursos\/usuario-0.png",
+        "siguiendo": [
+            1
+        ],
+        "seguidores": [],
+        "meGustas": [],
+        "publicaciones": []
+    }
+]

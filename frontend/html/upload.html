@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <script src="../js/all.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <title>TikTok</title>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pl-4 fixed-nav">
+        <a class="navbar-brand pl-1" style="margin-right: auto!important;" href="#">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="../img/logo-dark.svg" alt="">
+            <img src="../img/txt-dark-tiktok.svg" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div id= "contenedor-usuario" style="margin-left: auto;">
+            <a href="../html/upload.html"><i class="fas fa-cloud-upload-alt subir-video mr-5"></i></a>
+              <img src="../img/recursos/usuario-0.png" style="width: 40px;" alt="">
+          </div>
+        </div>  
+    </nav>
+    <hr>
+
+    <main>
+        <div class="row ml-5 mb-5">
+            <div class="col-12">
+                <h1 class="titulo-1">Cargar video</h1>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-12" id="mensaje-cargar">
+                        
+                    </div>
+                    <div class="col-12 pt-4">
+                        <div class="div-cargar-video card-cargar-video">
+                          <div class="custom-file mb-5">
+                            <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+                            <label class="custom-file-label" for="customFileLang"><h6 id="url-video">Seleccionar Archivo</h6></label>
+                          </div>
+                            <label for="">
+                                <div>
+                                
+                                    <div style="margin-left: auto; margin-right: auto; width: 40px;">
+                                      <i style=" font-size: 40px; color: rgba(153, 148, 148, 0.829);" class="fas fa-cloud-upload-alt subir-video mr-2"></i>  
+                                    </div>
+                                    
+                                    <div class="div-txt-1">
+                                        <h5>Selecciona el video para cargar</h5>
+                                    </div>
+                                    <div>
+                                        <h6 style="font-size: 14px;" class="div-txt-1">O arrastra y suelta un archivo</h6>
+                                    </div>
+                                    <div>
+                                        <ul style="font-family: Proxima Regular; font-size: 12px;color: rgba(22,24,35,0.34)">
+                                            <li ><h6>MP4 o Webm</h5></li>
+                                            <li><h6>Resolución de al menos 720x1280</h5></li>
+                                            <li><h6>Hasta 60 segundos</h5></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </label>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 pt-5">
+                
+                <div class="row">
+                    <div class="col-11">
+                        <form>
+                            <div class="form-group">
+                              <label for="formGroupExampleInput"><h6 class="titulo-lbl">Leyenda</h6></label>
+                              <input type="text" class="form-control input-leyenda" id="txt-leyenda">
+                            </div>
+                            <div class="form-group">
+                              <label for="formGroupExampleInput2"><h6 class="titulo-lbl">Portada</h6></label>
+                              <div style="width: 100%; height: 100px; border: 1px solid rgb(212, 212, 212);">
+                            </div>
+                            </div>
+                            <div class="form-grup">
+                                <div class="row pt-5 mb-4">
+                                    <div class="col-6">
+                                        <h6 class="titulo-lbl">¿ Quien puede ver este video?</h6>
+                                        
+                                        <div style="font-family: 'Proxima Nova Regular'; font-size: 16px; font-weight: 400;">
+                                            <form name="frm-privacidad" action="">
+
+                                              <label style="cursor: pointer;"  class="pl-2"><input onclick="setPrivacidad(`Publico`);" type="radio" name="privacidad" value="publico">&nbsp; Publico</label>
+                                              
+                                              <label style="cursor: pointer;" class="pl-2"><input onclick="setPrivacidad(`Solo amigos`);" type="radio" name="privacidad" value="solo amigos">&nbsp; Solo amigos</label>
+                                              
+                                              <label style="cursor: pointer;" class="pl-2"><input onclick="setPrivacidad(`Privado`);" type="radio" name="privacidad" value="Privado">&nbsp;Privado</label>
+                                              
+                                            </form>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="col-6">
+                                        <h6 class="titulo-lbl">Permitir que otros puedan:</h6>
+                                        <label style="cursor: pointer;" class="pl-2"><input type="checkbox" onclick="setComentario(`${true}`);" name="comentarios" value="comentario">&nbsp; Comentario</label>
+                                        <label style="cursor: pointer;"  class="pl-2"><input type="checkbox" onclick="setDuos(`${true}`);" name="duos" value="Hacer dúos">&nbsp; Hacer Dúos /Reaccionar</label>
+                                        
+                                        <div class="row">
+                                            <div class="col-12 pt-3">
+                                                <h6 class="subtitulo" style="font-size: 13px;">Los videos privados no permiten hacer Dúos/Reaccionar</h6>
+                                            </div>
+                                            <div class="col-12 pt-5">
+                                                <div class="row" style="margin-left: auto; margin-right: auto;">
+                                                    <div class="col-4">
+                                                        <h5>Descartar</h5>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <input onclick="publicar();" type="button" class="btn btn-primary" value="Cargar">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <footer class="footer pie-pagina pt-5">
+            <div class="container">
+
+          
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-2 col-xl-2   pl-0">
+                  <img  src="../img/logo-light.svg" alt="">
+                  <img src="../img/txt-light.svg" alt="">
+                </div>
+      
+                <div class="col-12 col-md-6 col-lg-2 col-xl-2 pl-0 pt-4">
+                  
+                  <table>
+                    <tr>
+                      <td><h5 class="pl-5 txt-encabezado-lista">Empresa</h5></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Acerca de TikTok</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Sala de prensa</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Contactos</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Vacantes</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">ByteDance</a></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 col-xl-3 pl-0 pt-4">
+                  <table>
+                    <tr>
+                      <td> <h5 class="pl-5 txt-encabezado-lista">Programas</h5></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">TikTok for Good</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">TikTok for Developers</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Anunciarse en TikTok</a></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 col-xl-3 pl-0 pt-4">
+                  <table>
+                    <tr><td>
+                      <h5 class="pl-5 txt-encabezado-lista">Soporte</h5>
+                    </td></tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Centro de ayuda</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Centro de seguridad</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Normas de la comunidad</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Transparency</a></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 col-xl-2 pl-0 pt-4">
+                  <table>
+                    <tr>
+                      <td><h5 class="pl-5 txt-encabezado-lista">Avisos legales</h5></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Política de Cookies</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Política de privacidad</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="links-footer pl-5" href="">Términos del servicio</a></td>
+                    </tr>
+          
+                  </table>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3  pt-5">
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle drp-idioma" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Español
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Ingles</a>
+                      <a class="dropdown-item" href="#">Ruso</a>
+                      <a class="dropdown-item" href="#">Chino</a>
+                    </div>
+                  </div>
+                  <br>
+                </div>
+                <div class="col-5 col-lg-7 col-xl-7"></div>
+                <div class="col-4 col-lg-2 col-xl-2 pt-5">
+                    <div>
+                      <h5 class="marca-tiktok">© 2020 TikTok</h5>
+      
+                    </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+    </main>
+    
+
+
+
+
+
+<!-- Optional JavaScript -->
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/controlador_upload.js"></script>
+  </body>
+</html>

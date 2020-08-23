@@ -1,0 +1,681 @@
+@font-face {
+    font-family: "Sofia Pro";
+    src: local("fonts/sofiapro/Fonts/sofiapro-light.otf");
+}
+@font-face {
+    font-family: "Sofia Pro Regular";
+    src: local("fonts/sofiapro/Fonts/SofiaProRegular.ttf")
+}
+@font-face {
+    font-family: "Sofia Pro Bold";
+    src: local("fonts/sofiapro/Fonts/SofiaProSemiBold.ttf")
+}
+@font-face {
+    font-family: "Proxima Nova Alt Light";
+    src: local("fonts/proxima_ssv/Proxima Nova Alt Light.otf");
+}
+@font-face {
+    font-family: "Proxima Nova Sbold";
+    src: local("fonts/proxima_ssv/Proxima-Nova-Sbold.otf");
+}
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: local("fonts/proxima_ssv/Proxima-Nova-Bold");
+}
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: local("fonts/proxima_ssv/ProximaNova-Regular.otf");
+}
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+ }
+.btn-ver-ahora{
+    background-color: #f94754!important;
+    border-color: #f94754!important;
+    border-radius: 2px!important;
+    height: 45px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto!important;
+}
+
+.btn-desplegar {
+    color:dimgray;
+    font-size: 25px;
+}
+
+.btn-desplegar:hover {
+    cursor: pointer;
+}
+
+.modal-menu-izquierdo {
+    margin: 0px;
+    
+}
+
+.contenido-modal {
+    border-radius: 0px;
+    width: 65%;
+    height: 100%!important;
+    margin-bottom: 0px;
+}
+
+.btn-cerrar-menu-modal {
+    font-size: 25px!important;
+    margin-left: 10px;
+} .btn-cerrar-menu-modal:hover {
+    cursor: pointer;
+}
+
+.txt-logo-menu-modal {
+    width: 120px;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.dark-logo-menu-modal {
+    width: 38px
+}
+#make-your-day {
+    font-family: "Sofia Pro";
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1;
+}
+#real-people {
+    text-align: center;
+    font-weight: bold;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 3px;
+
+}
+
+.opciones-link {
+    font-weight: bold;
+    color: black;
+
+}
+.links-panel-izquierdo{
+    text-decoration: none;
+} 
+#banner {
+    background-image: url('img/banner.png');
+}
+
+.gif {
+    width: 100%;    
+    height: 100%;
+}
+.columna-gif {
+  
+    padding-right: 0px!important;
+    
+}
+
+.pie-pagina {
+    background-color: #000000;
+}
+
+#footer-1 {
+
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-family: "Sofia Pro";
+}
+
+#codigo-pais {
+    width: 100px;
+}
+
+.btn-enviar-numero {
+    background-color: #f94754;
+    border-radius: 0px;
+}
+.btn-codigo-pais {
+    background-color: white;
+    border-radius: 0;
+}
+
+#txt-descargar-ahora {
+    color: white;
+    text-align: center;
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.parrafo-condiciones {
+
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.links-footer {
+    color: #ccc;
+    display: inline;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
+
+.txt-encabezado-lista {
+    color: #ccc;
+    display: inline;
+    font-family: "Sofia Pro";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    position: relative;
+
+}
+
+.drp-idioma {
+    
+    background-color: rgba(95, 15, 15, 0)!important;
+    border-radius: 0px;
+
+}
+.drp-idioma:hover {
+    
+    background-color: rgba(95, 15, 15, 0)!important;
+    border-radius: 0px;
+
+}
+
+.marca-tiktok{
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    line-height: 24px;
+    color: #8a8b91;
+}
+
+
+.col-marca {
+    margin-left: auto;
+}
+
+hr {
+
+    background-color: white;
+
+}
+.tabla-imagenes{
+    margin-right: auto;
+
+}
+
+.fijar-nav {
+    position: fixed;
+
+}
+
+
+
+.link-ver-ahora {
+    color: white;
+}
+.link-ver-ahora:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-iniciar-sesion{
+    background-color: #f94754!important;
+    border-color: #f94754!important;
+    border-radius: 2px!important;
+    height: 55px;
+    width: 170px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto!important;
+}
+
+.subir-video {
+    color: black;
+    font-size: 25px;
+
+}
+
+#txt-para-ti {
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    color: #fe2c55;
+    font-size: 27px;
+}
+
+#txt-tendencias {
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    color: #161823;
+    margin-left: 13px;
+}
+.parrafo-panel-izquierdo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(22,24,35,0.5);
+    font-family: "Proxima Nova Alt Light";
+
+}
+
+.otras-referencias {
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+    font-family: "Proxima Nova Alt Light";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(22,24,35,0.5);
+}
+
+.btn-iniciar-sesion-2 {
+    border-radius: 2px;
+    font-weight: bold;
+    height: 50px;
+}
+.div-usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 250px; 
+    background-color: #161823; 
+}
+
+.usuario {
+    font-family: "Sofia Pro Regular";
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.descripcion-video {
+    font-family: "Proxima Nova Regular";
+}
+
+
+.btn-seguir-usuario {
+    border-radius: 2px;
+    width: 95px;
+    height: 30px;
+    padding-top: 2px;
+    font-family: "Sofia Pro";
+    font-weight: 600;
+}
+
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+.my-custom-scrollbar-2 {
+    position: relative;
+    height: 380px;
+    overflow: auto;
+    overflow-x: hidden;
+    }
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+
+
+.titulo-tendencias {
+    padding-top: 2rem;
+    margin-left: 2rem;
+    text-align: left;
+    font-family: "Sofia Pro";
+    font-weight: 600;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.flecha-tendencias {
+    padding-left: 10rem;
+}
+
+.dwn-tiktok{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #161823;
+    position: relative;
+    width: 70%;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+    margin-right: -18px;
+    text-align: center;
+}
+
+.img-upload {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    cursor: pointer;
+    z-index: 7;
+    background: url("../img/recursos/upload.svg") center center / contain no-repeat transparent;
+    transition: opacity 300ms ease 0s;
+}
+
+.descripcion-sonido {
+    font-family: "Proxima Nova Sbold";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #000000;
+
+}
+
+.fixed {
+    position: fixed;
+    width: 20%;
+}
+.scrollit {
+    float: left;
+    width: 71%
+}
+
+
+.modal-registro {
+    width: 80%!important;
+    height: 100%!important;
+    margin-top: auto;
+    max-width: 100%!important;
+    max-height: 200%!important;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.rectangulo-login {
+    height: 50px;
+    width: 100%;
+    border: solid 1px;
+    border-color: #e3e2e4;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.txt-login {
+    font-family:"Proxima Nova Regular";
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-txt-inicio {
+    font-family: "Proxima Nova Bold";
+    font-size: 35px;
+    line-height: 33px;
+    text-align: center;
+    font-weight: bolder;
+}
+.txt-modal-registrate {
+
+    font-family: "Proxima Nova Regular";
+    
+    text-align: center;
+    color: #161823;
+
+}
+
+.modal-txt-gestion {
+    font-family: "Proxima Nova Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(22,24,35,0.5);
+    text-align: center;
+    margin: 12px auto 0;
+}
+
+.txt-link-registrate {
+    text-decoration: none!important;
+    color: crimson!important;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Proxima Nova Regular';
+}
+.div-comentarios-ayuda {
+
+    font-family: 'Proxima Nova Regular';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(22,24,35,0.5);
+}
+
+.div-comentarios-ayuda:hover{
+
+    font-family: 'Proxima Nova Regular';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(0, 1, 3);
+    text-decoration: none;
+    margin-left: auto!important;
+}
+.logo-transparente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    height: 35%;
+
+}
+.contenedor-principal {
+    margin-left: auto;
+}
+
+.txt-telefono-registro {
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Proxima Nova Bold';
+    color: #161823;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.txt-correo-telefono {
+    font-family: "Proxima Nova Regular";
+    font-size: 17px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+
+
+.div-telefono {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+
+#input-correo-login{
+    margin-right: auto;
+    box-shadow: none;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ced4da;
+
+}
+#input-correo-login:focus{
+    border: 1px solid #27d5ec;
+    box-shadow: none;
+}
+.input-login{
+    width:80% ;
+    margin-right: auto;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+.input-login:focus{
+    
+    box-shadow: none;
+    border: 1px solid #27d5ec;
+}
+
+
+#input-codigo-telefono {
+    height: 50px;
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    
+
+
+}
+#input-codigo-telefono:focus{
+    box-shadow: none;
+}
+
+
+.btn-enviar-codigo {
+    width: 100%;
+    background-color: #f94753!important;
+    height: 50px;
+}
+.input-codigo-login {
+    height: 50px;
+    width: 65%;
+}
+
+#btn-modal-inicio-sesion {
+    background-color: #f94753!important;
+    height: 50px;
+    width: 80%;
+}
+
+.modal-txt-inicio-sesion {
+    font-family: "Proxima Nova Bold";
+    font-size: 35px;
+    line-height: 33px;
+    font-weight: bolder;
+}
+
+
+/*
+Estilos para la pagina de subir archivos.
+*/
+
+.titulo-1 {
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    margin-top: 60px;
+
+}
+
+.subtitulo {
+    font-family: "Proxima Nova Regular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8a8b91;
+    margin-top: 2px;
+}
+
+.div-cargar-video {
+    background: rgba(22,24,35,0.03);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;    
+}
+
+.card-cargar-video {
+    width: 306px;
+    height: 544px;
+}
+
+.div-txt-1 {
+    font-family: "Proxima Regular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(22,24,35,0.34);
+    margin-top: 29px;
+}
+
+.input-leyenda {
+    box-shadow: 6px 6px 6px white;
+
+}
+.input-leyenda:focus {
+    box-shadow: none;
+    border: #f0f0f0 1px solid;
+
+}
+
+.titulo-lbl {
+    font-family: "Sofia Pro Bold";
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: top;
+    color: #000;
+    margin-bottom: 12px;
+
+}
+
+.titulo-usuario {
+    font-family: "Sofia Pro Bold";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 4px;
+}
+
+.nombre-comentario {
+    font-family: "Sofia Pro Bold";
+    font-size: 12px;
+}
+
+.contenido-comentario {
+    font-family: "Sofia Pro Regular";
+    font-size: 14px;
+}
